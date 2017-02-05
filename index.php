@@ -1,3 +1,14 @@
+<!-- 
+ * FEN Generator copyright R.Urban
+ * and other contributors.
+ *
+ * Released under the GNU General Public License v3.
+ *
+ *
+ * https://github.com/antiproton/Chess-FEN-Generator
+-->
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +22,7 @@
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="js/chessboard.js"></script>
  <script src="js/fen.js"></script>
-  
+
   <table style="width: 100%"border="0">
 <tbody><tr><td>  <div id="board" style="width: 400px"></div></td><td>
 Create a FEN string:<br><br>Forsyth–Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.<br> <br><br>All figures are free-floating. Each figure position is realizable. At any time you can analyze the game!
@@ -22,20 +33,20 @@ Create a FEN string:<br><br>Forsyth–Edwards Notation (FEN) is a standard notat
  <br>
  <input type="text" style="color: #de5410;" size="60" id="ausgabe" > Bestmove<br><br>
 
-  <input id="startPositionBtn" value="Initial Board" type="button">   
-  <input id="clearBoardBtn" value="Clear Board" type="button">   
+  <input id="startPositionBtn" value="Initial Board" type="button">
+  <input id="clearBoardBtn" value="Clear Board" type="button">
      <input type="button" id="flipOrientationBtn" value="Flip Board" /><br /> <br>
       <input type="button" style="height: 40px; width: 200px;  font-size: 20px;"  id="move1Btn" value="Bestmove" /><br><br>
-      
+
        <form action="" method="GET">
  <input type="submit"style="height: 40px; width: 200px;  font-size: 20px;"  value="New analysis">
-</form> 
+</form>
       </td></tr></tbody></table>
 
 
 
 
-   
+
 
 
 </body></html>
