@@ -4,4 +4,4 @@ Forsyth–Edwards Notation (FEN) Generator. All figures are free-floating. Each 
 # DEMO: http://netreal.de/Forsyth-Edwards-Notation/
 
 
-Basics: *http://chessboardjs.com/ *https://github.com/niklasf/stockfish.js
+Basics: * http://chessboardjs.com/ * https://github.com/niklasf/stockfish.js
